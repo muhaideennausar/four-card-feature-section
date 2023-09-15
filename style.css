@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+  position: relative;
+  padding: 50px;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.textSection{
+  text-align: center;
+  width: 500px;
+  margin-bottom: 50px;
+  user-select: none;
+}
+
+.textSection h2{
+  font-size: 34px;
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.textSection h2 span{
+  font-weight: 200;
+}
+
+.textSection p{
+  margin-top: 15px;
+  font-size: 15px;
+  color: #a3a5ae;
+}
+
+.boxSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  user-select: none;
+}
+
+.boxContiner{
+  height: 250px;
+  width: 350px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px #00000015;
+  position: relative;
+}
+
+.one::after{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #45d3d3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.two::after{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #ea5353;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.three::after{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #fcaf4a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.four::after{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #549ef2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.boxSectionCenter{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.boxContiner h3{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4c4e61;
+  margin-bottom: 10px;
+}
+
+.boxContiner p{
+  color: #a3a5ae;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.boxContiner img{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
